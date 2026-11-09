@@ -1,0 +1,322 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(118, 118, 118);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: black;
+}
+
+#header {
+  background-color: white;
+  height: 60px;
+}
+
+.header-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.sign-in {
+  display: flex;
+  gap: 30px;
+}
+
+.hero-all {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+
+#img-one {
+  padding-bottom: 300px;
+}
+
+.create-btn {
+  background: #ff4343;
+  border: none;
+  width: 170px;
+  height: 40px;
+  margin-top: 40px;
+  color: white;
+}
+
+.img-one {
+  display: flex;
+  justify-content: center;
+}
+
+.laptop {
+  position: relative;
+}
+
+.phone {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.next-text {
+  padding-left: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+.text-f p {
+  color: rgb(67, 63, 63);
+}
+
+.next-laptop {
+  display: flex;
+  justify-content: space-around;
+}
+
+.r-two {
+  position: absolute;
+  right: 300px;
+}
+
+.t-one {
+  padding-right: 150px;
+}
+
+.next-text p {
+  color: rgb(118, 118, 118);
+}
+
+.text-f {
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  right: 400px;
+  top: 2100px;
+}
+
+.text-fid p {
+  color: rgb(67, 63, 63);
+}
+
+.fruct-img {
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+.f-two {
+  position: absolute;
+  left: 300px;
+  padding-bottom: 300px;
+}
+
+.fid {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 200px;
+}
+
+.text-fid {
+  color: white;
+  padding-left: 130px;
+  margin-top: 60px;
+  font-size: 30px;
+}
+
+.mid-all {
+  display: flex;
+
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.text-mid {
+  color: white;
+
+  font-size: 30px;
+  padding-top: 70px;
+  margin-right: 200px;
+}
+
+.ggm {
+  padding-left: 250px;
+}
+
+.ggf {
+  width: 600px;
+  height: auto;
+  position: absolute;
+  left: 350px;
+}
+
+.fid-img {
+  padding-right: 150px;
+}
+
+.b-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 50px;
+  font-size: 30px;
+  padding-top: 170px;
+}
+
+.b-text p {
+  line-height: 40px;
+}
+
+.img-card {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.text-c {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 50px;
+  font-size: 20px;
+  padding-top: 250px;
+}
+
+.text-c h5 {
+  color: greenyellow;
+}
+
+.text-c h1 {
+  line-height: 60px;
+}
+
+.circle-ava {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
+}
+
+.all-texts {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: -300px;
+  font-size: 30px;
+}
+
+.btn {
+  border: none;
+  color: white;
+  background: #ff4343;
+  border: none;
+  width: 170px;
+  height: 40px;
+}
+
+.imgf {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.text-gil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 640px;
+  gap: 30px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.foot-text {
+  color: white;
+  padding-top: 200px;
+  font-size: 30px;
+}
+
+.imgd-all {
+  padding-top: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mm {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.footer-img img {
+  margin-bottom: -140px;
+}
+
+.ss {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  line-height: 40px;
+}
+
+.ss h1 {
+  padding-bottom: 100px;
+}
+
+.cc {
+  padding-left: 800px;
+  padding-top: 100px;
+  display: flex;
+  gap: 150px;
+}
+
+.imm {
+}
+
+.gg {
+  background: #81d1a2;
+}
+
+.ddf {
+}
